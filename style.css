@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin:0
+  }
+  .columncorner {
+    float: left;
+    width: 20%;
+    height:1900px;;
+    background-image:url("body_bg.gif");
+  }
+  .columnmiddle{
+    float: left;
+    width: 60%;
+    height:1900px;
+    background-color:rgba(230, 225, 225, 0.918);
+  }
+  header{
+      background-image:url("1.jpg");
+      height:150px;
+      margin:15px;
+  }
+  header h1{
+      padding-top:38px;
+      padding-left:30px;
+      font-size:40px;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    
+    50%  {background-color:pink; left:200px; top:0px;}
+    
+    100%  {background-color:rgba(230, 225, 225, 0.918); left:0px; top:200px;}
+    
+  }
+  header h1 span{
+    color:crimson;
+  }
+  
+  header p{
+      padding-left:69px;
+      font-size:20px;
+  }
+  .firstcolumn{
+    float: left;
+    width: 40%;
+    height:1900px;;
+  }
+  .secondcolumn{
+    float: left;
+    width: 60%;
+    height:1900px;;
+  }
+  #zen-summary{
+    background-color:pink;
+    height:70px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+  }
+  #zen-summary:hover{
+    color:crimson;
+  }  
+  #zen-preamble{
+    background-color:wheat;
+    height:230px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+  }
+  #zen-preamble:hover{
+    color:crimson;
+  }
+  #zen-explanation{
+    background-color:lightgoldenrodyellow;
+    height:275px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+  }
+  #zen-explanation:hover{
+    color:crimson;
+  }
+  #zen-participation{
+    background-color:pink;
+    height:325px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+  }
+  #zen-participation:hover{
+    color:crimson;
+  }
+  #zen-benefits{
+    background-color:wheat;
+    height:130px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+  }
+  #zen-benefits:hover{
+    color:crimson;
+  }
+  #zen-requirements{
+    background-color:lightgoldenrodyellow;
+    height:530px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+  }
+  #zen-requirements:hover{
+    color:crimson;
+  }
+  footer{
+    text-align:right;
+    margin:15px;
+  }
+  #design-selection{
+    background-color:lightgoldenrodyellow;
+    height:400px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    from {background-color:wheat;}
+    to {background-color: pink;}
+  }
+  #design-selection .design-name{
+    color:crimson;
+    text-decoration: none;
+  }
+  #design-selection .designer-name{
+    text-decoration: none;
+  }
+  
+  #design-archives{
+    background-color:wheat;
+    height:100px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example1 {
+    from {background-color:lightgoldenrodyellow;}
+    to {background-color: pink;}
+  }
+  #design-archives a{
+    text-decoration: none;
+  }
+  #zen-resources{
+    background-color:pink;
+    height:200px;
+    margin:15px;
+    border-style:ridge;
+    border-radius:10px;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example2 {
+    from {background-color:lightgoldenrodyellow;}
+    to {background-color: wheat;}
+  }
+  #zen-resources a{
+    text-decoration:none;
+  }
+  .zen-validate{
+    border-style:ridge;
+    color:darkgray;
+    text-decoration: none;
+  }
